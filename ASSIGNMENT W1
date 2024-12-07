@@ -1,0 +1,123 @@
+'''
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A sample webpage showcasing semantic HTML, text, images, and links for readability and SEO.">
+    <meta name="keywords" content="HTML, Webpage, Semantic HTML, SEO, Header, Footer">
+    <meta name="author" content="Your Name">
+    <title>Semantic HTML Webpage</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header, footer {
+            background-color: #0073e6;
+            color: white;
+            text-align: center;
+            padding: 10px 20px;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 15px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        main {
+            padding: 20px;
+        }
+        section {
+            margin-bottom: 20px;
+        }
+        article {
+            margin-bottom: 15px;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 10px 0;
+        }
+        footer p {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <h1>Welcome to My Webpage</h1>
+        <p>Your go-to destination for learning semantic HTML!</p>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#articles">Articles</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- About Section -->
+        <section id="about">
+            <h2>About This Webpage</h2>
+            <p>This webpage is designed to demonstrate the use of semantic HTML for better readability and search engine optimization.</p>
+        </section>
+
+        <!-- Articles Section -->
+        <section id="articles">
+            <h2>Featured Articles</h2>
+            <article>
+                <h3>Why Use Semantic HTML?</h3>
+                <p>Semantic HTML helps search engines and assistive technologies understand the structure and meaning of your content.</p>
+                <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/section" target="_blank">Learn More</a>
+            </article>
+            <article>
+                <h3>Getting Started with HTML</h3>
+                <p>HTML forms the backbone of any webpage. Understanding its basics is essential for web development.</p>
+                <a href="https://www.w3schools.com/html/" target="_blank">Start Learning</a>
+            </article>
+        </section>
+
+        <!-- Gallery Section -->
+        <section id="gallery">
+            <h2>Gallery</h2>
+            <p>Take a look at some sample images:</p>
+            <img src="https://via.placeholder.com/600x400" alt="Placeholder Image 1">
+            <img src="https://via.placeholder.com/600x400" alt="Placeholder Image 2">
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <p>Have questions or want to connect? Reach out via email or follow me on social media.</p>
+            <ul>
+                <li>Email: <a href="mailto:example@example.com">example@example.com</a></li>
+                <li>Twitter: <a href="https://twitter.com" target="_blank">@MyTwitterHandle</a></li>
+            </ul>
+        </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 Your Name. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+```
